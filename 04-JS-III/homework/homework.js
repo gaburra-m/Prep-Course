@@ -104,7 +104,7 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   var masGrande = numeros[0];
-  for(i=0; i<numeros.length; i++){
+  for(var i=0; i<numeros.length; i++){
     if(numeros[i]>masGrande){
       masGrande = numeros[i]
     }   
@@ -131,7 +131,7 @@ function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
   var mas18 = 0;
-  for(i=0; i<arreglo.length; i++){
+  for(var i=0; i<arreglo.length; i++){
     if(arreglo[i] > 18)
       mas18 = mas18 +1;
     
